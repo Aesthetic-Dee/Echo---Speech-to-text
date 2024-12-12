@@ -1,0 +1,208 @@
+.speech{
+  width: 100%;
+  margin: auto;
+  padding: 0rem 2rem;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgb(10, 155, 106);
+  min-width: 100vw;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+header img{
+  width: 80px;
+}
+
+.speech svg{
+  font-size: 2rem;
+}
+
+.speechWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.speechWrapper svg{
+  font-size: 5rem;
+}
+
+.speechWrapper p{
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.speech .h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.mb{
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  color: rgb(255, 255, 255);
+}
+
+header .speech {
+  color: rgb(255, 255, 255);
+}
+
+header .ify {
+  color: rgb(102, 24, 176);
+}
+
+header h1{
+  text-shadow: 1px 3px 20px rgb(255, 255, 255);
+}
+
+.textWrapper{
+  padding: 1.5rem 1rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255);
+  width: 100%;
+}
+
+.textWrapper p{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.textWrapper button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  border: none;
+  background-color: rgb(115, 33, 156);
+  margin-top: .5rem;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.textWrapper button  svg{
+ font-size: 1.2rem;
+}
+
+.textWrapper span{
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
+.languageWrapper{
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.528);
+}
+
+footer{
+  margin: 1rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconWrapper{
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconWrapper p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.5rem;
+}
+
+.iconWrapper p svg{
+  font-size: 14px;
+}
+
+.iconWrapper h2{
+  font-size: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.speech .upload  a{
+  margin-top: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 0.5rem;
+}
+
+select{
+  width: 100%;
+  border: none;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
+option{
+  border: none;
+}
+
+.default, .hint{
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+.hint{
+  margin-top: 1rem;
+}
+
+.default i, .hint i{
+  text-decoration: underline;
+}
+
+.speech .upload{
+  display: block;
+  transition: all .3s ease;
+}
+.speech .upload:hover{
+  color:rgb(21, 21, 94);
+  text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (min-width: 850px) {
+  /* some media queries */
+  .speech {
+    width: 650px;
+  }
+  .iconWrapper p{
+  font-size: 0.9rem;
+}
+
+.iconWrapper p svg{
+  font-size: 20px;
+}
+
+.iconWrapper h2{
+  font-size: 1.1rem;
+}
+}
+
